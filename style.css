@@ -1,0 +1,43 @@
+.student-form input[type="text"],
+.student-form input[type="email"],
+.student-form input[type="tel"],
+.student-form textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #b0c4de;
+    border-radius: 6px;
+    background: #fff;
+    color: #222;
+    font-size: 16px;
+    transition: border-color 0.2s;
+    box-sizing: border-box;
+    resize: vertical;
+}
+
+.student-form input[type="text"]:focus,
+.student-form input[type="email"]:focus,
+.student-form input[type="tel"]:focus,
+.student-form textarea:focus {
+    border-color: #1976d2;
+    outline: none;
+}
+
+.student-form button[type="submit"] {
+    width: 100%;
+    background: #1976d2;   /* Change this color as you like */
+    color: #fff;
+    border: none;
+    padding: 14px 0;
+    border-radius: 6px;
+    font-size: 17px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: background 0.2s, color 0.2s, border 0.2s;
+    margin-top: 8px;
+}
+
+.student-form button[type="submit"]:hover {
+    background: #fff;
+    color: #1976d2;
+    border: 2px solid #1976d2;
+}
